@@ -1,0 +1,87 @@
+body {
+    margin: 0px;
+}
+
+.header-bar-wrapper {
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    
+
+}
+.left-column {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+
+.left-column img {
+    width: 220px;
+    margin-left: 20px;
+}
+
+.nav-bar {
+    margin-left: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.nav-link-container > .nav-link {
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Suez One', serif;
+    line-height: 1.1;
+    font-size: 1.8rem;
+}
+
+.nav-link-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-header {
+    margin-bottom: 5px;
+    margin-left: 10px;
+    color: goldenrod;
+    font-size: 1.25rem;
+    font-family: 'Telefon Black', sans-serif;
+}
+
+.spark-container {
+    margin-left: 45px;
+    margin-top: 30px;
+    color: gray;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-column {
+
+ 
+    
+}
+
+.action-bar {
+
+}
+
+/* .create-btn {
+    height: 80px;
+    width: 240px;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    color: white;
+}
+
+.create-btn i {
+    color: greenyellow;
+} */
